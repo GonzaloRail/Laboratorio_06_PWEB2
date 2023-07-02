@@ -22,4 +22,6 @@ from tareas import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home, name='home'),
+    path('registro/', views.signin, name='registro'),
+
 ]
